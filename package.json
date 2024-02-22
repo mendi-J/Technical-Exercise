@@ -13,4 +13,7 @@
     "cypress": "^13.6.5",
     "cypress-xpath": "^2.0.1"
   }
+    "scripts": {
+    "cypress:run": "cypress run"
+  }
 }
