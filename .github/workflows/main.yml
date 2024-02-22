@@ -10,7 +10,7 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
       with:  
-        repository: mendi-J/Technical-Exercise
+        repository: https://github.com/mendi-J/Technical-Exercise
         ref: master
 
     - name: Install Dependencies
