@@ -14,6 +14,8 @@ jobs:
       with:  
         repository: mendi-J/Technical-Exercise
         ref: master
+    - name: Set execute permission for cypress file
+      run: chmod +x cypress
 
     - name: Install Dependencies
       run: npm install
