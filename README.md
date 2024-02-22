@@ -1,5 +1,5 @@
 
-**Cypress Test Repository**
+**Cypress Test Repository:**
 This repository contains automated tests for VALIDATION OF INDIVIDUAL CURRENT ACCOUNT (Technical Excercise) using Cypress. 
 Follow the steps below to clone this repository and run the tests locally or using GitHub Actions.
 
