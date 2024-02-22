@@ -17,6 +17,8 @@ jobs:
       with:  
         repository: mendi-J/Technical-Exercise
         ref: master
+      env:
+        NODE_VERSION: '20'
 
     - name: Install Dependencies
       run: npm install
