@@ -1,13 +1,14 @@
 
 **Cypress Test Repository:**
-This repository contains automated tests for VALIDATION OF INDIVIDUAL CURRENT ACCOUNT (Technical Excercise) using Cypress. 
+1. This repository contains automated tests for VALIDATION OF INDIVIDUAL CURRENT ACCOUNT (Technical Excercise) using Cypress.
+   
 Follow the steps below to clone this repository and run the tests locally or using GitHub Actions.
 
 **Clone the Repository**
-Open your terminal or command prompt.
+1. Open your terminal or command prompt.
 
 Clone the repository using the following command:
-git clone https://github.com/your-username/your-cypress-repo.git
+1. git clone https://github.com/your-username/your-cypress-repo.git
 
 **Installing Cypress Locally**
 Before running the tests locally, you'll need to install Cypress on your machine. Follow these steps:
