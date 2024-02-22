@@ -6,19 +6,14 @@ on:
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
+    env:
+      using: 'node20'
     steps:
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '20'
-
     - name: Checkout Repository
       uses: actions/checkout@v2
       with:  
         repository: mendi-J/Technical-Exercise
         ref: master
-      env:
-        NODE_VERSION: '20'
 
     - name: Install Dependencies
       run: npm install
