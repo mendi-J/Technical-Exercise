@@ -20,3 +20,5 @@ describe("Zenith Bank Technical Exercise", () => {
     currentAccountPage.validateAvailableChannelsOfTheIndividualCurrentAccount();
   });
 });
+
+// Run
