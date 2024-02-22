@@ -1,24 +1,14 @@
 name: Cypress Tests
-
-on:
-  workflow_dispatch:
-
+on: [push]
 jobs:
-  cypress-run:
-    runs-on: ubuntu-latest
-    env:
-      using: 'node20'
-    steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
-      with:  
-        repository: mendi-J/Technical-Exercise
-        ref: master
-    - name: Set execute permission for cypress file
-      run: chmod +x path/to/cypress
-
-    - name: Install Dependencies
-      run: npm install
-
-    - name: Run Cypress Tests
-      run: npm run cypress:run
+ Cypress-Test:
+   runs-on: ubuntu-latest
+   steps:
+     - name: Checkout GitCode
+       uses: actions/checkout@v2
+ 
+     - name: Run Cypress Test
+       uses: cypress-io/github-action@v4
+       with:
+         command: npx cypress run
+         browser: chrome
